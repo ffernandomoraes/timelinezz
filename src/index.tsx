@@ -1,6 +1,6 @@
 import './assets/styles/timelinezz.css';
 
-import React, { PureComponent } from 'react';
+import * as React from 'react';
 
 interface IProps {
    data: Array<{
@@ -11,7 +11,7 @@ interface IProps {
    order?: 'asc' | 'desc';
 }
 
-export default class Timelinezz extends PureComponent<IProps, {}> {
+export default class Timelinezz extends React.PureComponent<IProps, {}> {
    public render(): React.ReactNode {
       const { data, order } = this.props;
 

@@ -1,27 +1,37 @@
 {
    "name": "timelinezz",
-   "version": "1.0.0",
+   "version": "1.0.2",
    "description": "Simple Timeline for React",
+   "main": "lib/index",
+   "types": "lib/index.d.ts",
+   "homepage": "https://github.com/ffernandomoraes/timelinezz",
    "repository": {
       "type": "git",
       "url": "https://github.com/ffernandomoraes/timelinezz"
    },
+   "bugs": {
+      "url": "https://github.com/ffernandomoraes/timelinezz/issues"
+   },
    "scripts": {
       "start": "react-scripts start",
-      "build": "react-scripts build"
+      "css": "cp -R ./src/assets/styles/timelinezz.min.css ./lib",
+      "build": "rm ./lib/* && yarn css && tsc"
    },
    "author": {
       "name": "Fernando Moraes"
    },
    "license": "ISC",
+   "files": [
+      "lib"
+   ],
    "peerDependencies": {
-      "@types/jest": "24.0.5",
-      "@types/node": "11.9.4",
+      "react": "*"
+   },
+   "dependencies": {
       "@types/react": "16.8.3",
-      "@types/react-dom": "16.8.2",
-      "react": "^16.8.2",
-      "react-dom": "^16.8.2",
-      "react-scripts": "2.1.5",
+      "@types/react-dom": "16.8.2"
+   },
+   "devDependencies": {
       "typescript": "3.3.3"
    },
    "browserslist": [

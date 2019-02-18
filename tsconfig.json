@@ -21,6 +21,7 @@
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": false
    },
+   "types": ["core-js"],
    "exclude": ["node_modules"],
    "include": ["./src/**/*.tsx", "./src/**/*.ts"]
 }

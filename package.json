@@ -1,9 +1,9 @@
 {
    "name": "timelinezz",
-   "version": "1.0.4",
+   "version": "1.0.5",
    "description": "Simple Timeline for React",
-   "main": "lib/index",
-   "types": "lib/index.d.ts",
+   "main": "./lib/index.js",
+   "types": "./lib/index.d.ts",
    "homepage": "https://github.com/ffernandomoraes/timelinezz",
    "repository": {
       "type": "git",
@@ -18,20 +18,23 @@
       "build": "rm ./lib/* && tsc && yarn css"
    },
    "author": {
-      "name": "Fernando Moraes"
+      "name": "Fernando Moraes",
+      "email": "fermoraeslima10@gmail.com"
    },
    "license": "ISC",
    "files": [
       "lib"
    ],
    "peerDependencies": {
-      "react": "*"
+      "react": ">=16.3.0"
    },
    "dependencies": {
-      "@types/react": "16.8.3",
-      "@types/react-dom": "16.8.2"
+      "react": ">=16.3.0"
    },
    "devDependencies": {
+      "@types/node": "10.12.18",
+      "@types/react": "16.8.3",
+      "tslint-react": "3.6.0",
       "typescript": "3.3.3"
    },
    "browserslist": [

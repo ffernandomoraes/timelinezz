@@ -1,4 +1,4 @@
-import './assets/styles/timelinezz.css';
+import './assets/styles/timelinezz.min.css';
 
 import * as React from 'react';
 
@@ -17,7 +17,7 @@ export default class Timelinezz extends React.PureComponent<IProps, {}> {
 
       return (
          <div className={`timelinezz ${order === 'desc' ? '--desc' : ''}`}>
-            {data.map((event, index) => (
+            {data && data.map((event, index) => (
                <div className='timelinezz__item' key={`event-${index}`}>
                   <div className='date'>{event.date}</div>
                   <div className='event' style={{ color: event.color }}>{event.label}</div>

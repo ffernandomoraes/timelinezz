@@ -1,0 +1,28 @@
+{
+   "name": "timelinezz",
+   "version": "1.0.0",
+   "description": "Simple Timeline for React",
+   "main": "build/index.js",
+   "repository": {
+      "type": "git",
+      "url": "<git_repo_url>"
+   },
+   "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build"
+   },
+   "author": {
+      "name": "Fernando Moraes"
+   },
+   "license": "ISC",
+   "peerDependencies": {
+      "@types/jest": "24.0.5",
+      "@types/node": "11.9.4",
+      "@types/react": "16.8.3",
+      "@types/react-dom": "16.8.2",
+      "react": "^16.8.2",
+      "react-dom": "^16.8.2",
+      "react-scripts": "2.1.5",
+      "typescript": "3.3.3"
+   }
+}

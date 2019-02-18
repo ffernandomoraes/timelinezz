@@ -1,6 +1,6 @@
 {
    "name": "timelinezz",
-   "version": "1.0.3",
+   "version": "1.0.4",
    "description": "Simple Timeline for React",
    "main": "lib/index",
    "types": "lib/index.d.ts",
@@ -14,7 +14,7 @@
    },
    "scripts": {
       "start": "react-scripts start",
-      "css": "cp -R ./src/assets/styles/timelinezz.min.css ./lib",
+      "css": "cp -R ./src/assets ./lib",
       "build": "rm ./lib/* && tsc && yarn css"
    },
    "author": {

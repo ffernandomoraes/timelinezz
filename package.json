@@ -2,10 +2,9 @@
    "name": "timelinezz",
    "version": "1.0.0",
    "description": "Simple Timeline for React",
-   "main": "build/index.js",
    "repository": {
       "type": "git",
-      "url": "<git_repo_url>"
+      "url": "https://github.com/ffernandomoraes/timelinezz"
    },
    "scripts": {
       "start": "react-scripts start",
@@ -24,5 +23,11 @@
       "react-dom": "^16.8.2",
       "react-scripts": "2.1.5",
       "typescript": "3.3.3"
-   }
+   },
+   "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+   ]
 }
